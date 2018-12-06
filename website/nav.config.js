@@ -114,6 +114,10 @@ const navData = [
             name: 'Spin 加载中',
             path: 'spin',
           },
+          {
+            name: 'Breadcrumb 面包屑',
+            path: 'breadcrumb',
+          },
         ],
       },
     ],

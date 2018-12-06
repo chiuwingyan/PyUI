@@ -1,6 +1,8 @@
 import Alert from './components/alert/index';
 import Avatar from './components/avatar/index';
 import Badge from './components/badge/index';
+import Breadcrumb from './components/breadcrumb/index';
+import BreadcrumbItem from './components/breadcrumb-item/index';
 import Button from './components/button/index';
 import ButtonGroup from './components/button-group/index';
 import Cascader from './components/cascader/index';
@@ -40,6 +42,8 @@ const components = [
   Alert,
   Avatar,
   Badge,
+  Breadcrumb,
+  BreadcrumbItem,
   Button,
   ButtonGroup,
   Cascader,
@@ -96,6 +100,8 @@ export default {
   install,
   Alert,
   Badge,
+  Breadcrumb,
+  BreadcrumbItem,
   Button,
   ButtonGroup,
   Cascader,

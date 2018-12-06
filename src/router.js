@@ -131,5 +131,11 @@ export default new Router({
       name: 'Radio',
       component: () => import(/* webpackChunkName: "radio" */ './testsDemo/radio/radio.vue'),
     },
+    {
+      path: '/breadcrumb',
+      name: 'Breadcrumb',
+      component: () =>
+        import(/* webpackChunkName: "layout" */ './testsDemo/breadcrumb/breadcrumb.vue'),
+    },
   ],
 });

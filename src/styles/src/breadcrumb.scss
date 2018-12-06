@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+$prefixCls: 'py-breadcrumb';
+
+.#{$prefixCls} {
+  color: #999;
+  font-size: 14px;
+
+  a {
+    color: #515a6e;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: tint(#2d8cf0, 20%);
+    }
+  }
+
+  & > span:last-child {
+    font-weight: bold;
+    color: #515a6e;
+  }
+
+  & > span:last-child &-item-separator {
+    display: none;
+  }
+
+  &-item-separator {
+    margin: 0 8px;
+    color: #dcdee2;
+  }
+
+  &-item-link {
+    > .ivu-icon + span {
+      margin-left: 4px;
+    }
+  }
+}
